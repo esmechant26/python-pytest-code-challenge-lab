@@ -4,7 +4,7 @@ def test_longest_palindrome_basic():
     assert longest_palindromic_substring("racecar") == "racecar"
 
 def test_longest_palindrome_no_match():
-    assert longest_palindromic_substring("hello") == "h" or "l"  # depends on spec
+    assert longest_palindromic_substring("hello") == "h"
 
 def test_single_char():
     assert longest_palindromic_substring("a") == "a"
